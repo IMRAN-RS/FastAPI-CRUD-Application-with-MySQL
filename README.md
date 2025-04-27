@@ -9,17 +9,25 @@ It allows you to perform operations like creating, reading, updating, and deleti
 🚀 Features
 
 Create (POST) a new employee
+
 Read (GET) employee details
+
 Update (PUT) an existing employee
+
 Delete (DELETE) an employee
+
 Connected to MySQL Workbench for automatic data storage
 
 🛠️ Tech Stack
 
 Python 3.10+
+
 FastAPI
+
 Uvicorn (for running the server)
+
 SQLAlchemy (ORM)
+
 MySQL Workbench / MySQL Server
 Pydantic (for data validation)
 
