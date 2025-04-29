@@ -9,7 +9,7 @@ from typing import List
 app = FastAPI()
 
 # Define the MySQL connection URL (with proper encoding for special characters in password)
-SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:Rs%4036237862000@127.0.0.1:3306/employee_db"
+SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:Password@127.0.0.1:3306/employee_db"
 
 # Create SQLAlchemy engine to connect to MySQL
 engine = create_engine(SQLALCHEMY_DATABASE_URL, pool_size=10, max_overflow=20)
